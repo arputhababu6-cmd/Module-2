@@ -11,9 +11,18 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+def result(a, b):
 
-Add code Here
+    print(a % b)
+
+num1 = int(input())
+
+num2 = int(input())
+
+result(num1, num2)
 
 ## Output
+<img width="148" height="76" alt="image" src="https://github.com/user-attachments/assets/a5141a2d-d514-472d-bfea-8173b2e1ee0e" />
 
 ## Result
+The program defines a custom function to calculate the remainder of two user-provided integers using the modulo operator and displays that final value to the console.
